@@ -23,7 +23,12 @@
 
 % Mailing address for the leadership body, can be the personal address
 % of one of the members
-\renewcommand{\leadershipaddress}{\textbf{MAILING ADDRESS}}
+
+% Note: to prevent the posting of private mailing address to a public github
+% repo, we can read this from a file named address.tex which should NOT be
+% committed to git.
+\IfFileExists{address.tex}{
+\input{address} }
 
 % Date at which the agreement becomes enforceable
 \renewcommand{\agreementdate}{\textbf{DD day of MM, 20YY}}
