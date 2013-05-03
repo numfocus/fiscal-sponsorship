@@ -6,7 +6,7 @@ $(fsa).pdf: $(fsa).tex fsa-definitions.tex leadership-body.tex signatures.tex
 	ps2pdf $(fsa).ps
 
 clean:
-	rm -f *~ *.aux *.dvi *.log
+	rm -f *~ *.aux *.dvi *.log $(fsa).ps
 
 cleanall: clean
-	rm -f $(fsa).pdf
+	rm -f $(fsa).ps $(fsa).pdf
