@@ -5,6 +5,14 @@
 
 \documentclass[letterpaper,12pt]{article}
 
+% Define a \fixme{...} command to easily highlight notes for ourselves during
+% discussion.
+\usepackage{color}
+\definecolor{darkorange}{rgb}{.71,0.21,0.01}
+
+\newcommand{\fix}[1]{
+  \textcolor{darkorange} { \textbf{***FIX***} #1 } }
+
 %% We declare a series of macros with placeholder names here, that will be
 %% re-defined by each project in its own definitions file.  In principle, this
 %% file should never be modified unless a project negotiates specific changes,
@@ -41,7 +49,7 @@
 %% Load the actual values for each project
 \input{fsa-definitions}
 
-
+% Signatures for contributors
 \newcommand{\contributorsig}[1]{
 By: \hspace{0.95em}\rule{0.50\textwidth}{0.2mm} \hfill{}Date: \rule{0.25\textwidth}{0.2mm}
 
