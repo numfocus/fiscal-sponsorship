@@ -42,10 +42,10 @@ information.  Note that for privacy reasons, `address.tex` should *not* be
 committed to git, as it is likely to be the personal address of a project
 contributor. 
 
-If the project agrees to the terms of the agreement, nothing else
-should be modififed. In particular, the main container document should *not* be
-edited (other than renaming it to refer to each project) unless the project
-specifically wishes to amend/modify the terms of the agreement.
+  If the project agrees to the terms of the agreement, nothing else should be
+  modififed. In particular, the main container document should *not* be edited
+  (other than renaming it to refer to each project) unless the project
+  specifically wishes to amend/modify the terms of the agreement.
 
 * Once ready, they submit a pull request into the official NumFOCUS repo with
 their data.  Once accepted, that version of the document will be printed,
