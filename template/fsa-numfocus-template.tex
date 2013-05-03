@@ -1,15 +1,45 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Template for Fiscal Sponsorship Agreement.
+
 % This document was derived from the one used by the Software Conservancy.  Any
 % issues with the current version should be reported to NumFOCUS, as the
 % Software Conservancy is not responsible in any way for NumFOCUS' use.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[english,letterpaper,12pt]{article}
 
-% Define a \fixme{...} command to easily highlight notes for ourselves during
-% discussion.
+%% Packages
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\usepackage{mathpazo}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage[verbose, twoside, dvips,
+              paperwidth=8.5in, paperheight=11in,
+              left=1in, right=1in, top=1.25in, bottom=.75in,
+           ]{geometry}
+
 \usepackage{color}
 \definecolor{darkorange}{rgb}{.71,0.21,0.01}
 
+%% Formatting
+\pagestyle{fancy}
+
+\lhead{}
+\rhead{}
+\chead{}
+
+\cfoot{\thepage}
+\lfoot{}
+\rfoot{Initials: \rule{0.15\textwidth}{0.2mm}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%% Command definitions
+% Define a \fix{...} command to easily highlight notes for ourselves during
+% discussion.
 \newcommand{\fix}[1]{
   \textcolor{darkorange} { \textbf{***FIX***} #1 } }
 
@@ -45,10 +75,6 @@
 % Date at which the agreement becomes enforceable
 \newcommand{\agreementdate}{\textbf{DD day of MM, 20YY}}
 
-
-%% Load the actual values for each project
-\input{definitions}
-
 % Signatures for contributors
 \newcommand{\contributorsig}[1]{
 By: \hspace{0.95em}\rule{0.50\textwidth}{0.2mm} \hfill{}Date: \rule{0.25\textwidth}{0.2mm}
@@ -58,29 +84,9 @@ By: \hspace{0.95em}\rule{0.50\textwidth}{0.2mm} \hfill{}Date: \rule{0.25\textwid
 \vspace{2ex}
 }
 
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{babel}
-\usepackage{mathpazo}
-\usepackage{enumitem}
-\usepackage{parskip}
-\usepackage{fancyhdr}
-\usepackage[verbose, twoside, dvips,
-              paperwidth=8.5in, paperheight=11in,
-              left=1in, right=1in, top=1.25in, bottom=.75in,
-           ]{geometry}
+%% Load the actual values of the macro definitions for each project
+\input{definitions}
 
-\pagestyle{fancy}
-
-\lhead{}
-\rhead{}
-\chead{}
-
-\cfoot{\thepage}
-\lfoot{}
-\rfoot{Initials: \rule{0.15\textwidth}{0.2mm}}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
