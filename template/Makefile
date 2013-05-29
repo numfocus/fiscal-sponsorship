@@ -9,11 +9,16 @@ fsa=fsa-numfocus-template
 
 # Note: we run latex like this instead of pdflatex b/c the file uses a
 # postscript-only package for the DRAFT watermark.
-$(fsa).pdf: $(fsa).tex definitions.tex leadership-body.tex signatures.tex
+$(fsa).pdf: $(fsa).tex definitions.tex signatures.tex
 	latex $(fsa)
 	latex $(fsa)
 	dvips $(fsa).dvi
 	ps2pdf $(fsa).ps
+
+# For final versions that don't use the 'draftcopy' package, we can just run
+# pdflatex directly.
+final: $(fsa).tex definitions.tex signatures.tex
+	pdflatex $(fsa)
 
 clean:
 	rm -f *~ *.aux *.dvi *.log $(fsa).ps

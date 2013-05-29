@@ -33,7 +33,7 @@
 
 \cfoot{\thepage}
 \lfoot{}
-\rfoot{Initials: \rule{0.15\textwidth}{0.2mm}}
+\rfoot{Initials: \rule{0.25\textwidth}{0.2mm}}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
@@ -64,9 +64,12 @@
 % Name given to the signatories group, such as ``NumPy developers''
 \newcommand{\signatories}{\textbf{SIGNATORIES}}
 
-% Name given to the leadership body for the project, e.g. ``NumPy guidance
-% committee''
-\newcommand{\leadershipbody}{\textbf{LEADERSHIP-BODY-NAME}}
+% Name given to the fiscal management team for the project, e.g. ``NumPy fiscal
+% team''
+\newcommand{\fiscalteam}{\textbf{FISCAL-TEAM-NAME}}
+
+% Size of the project's fiscal management team
+\newcommand{\teamsize}{\textbf{3 or 5 members [Project MUST decide]}}
 
 % Mailing address for the leadership body, can be the personal address
 % of one of the members
@@ -148,22 +151,23 @@ terminated as set forth in \ref{Termination}.
 
 \begin{enumerate}[label=\alph*.,ref=\theenumi(\alph*)]
 
-\item \textbf{The \leadershipbody{} Will Manage the
-    Project}. \label{ProjectManagement} Authority to manage the activities of
-  the project is delegated to the \leadershipbody{} as defined in
-  \ref{Representation}.  NumFOCUS will only intervene in the program activities
-  to the extent the Project is not in compliance with \ref{OpenSourceSoftware}
-  or \ref{CharitablePurpose} of this Agreement.
+\item \textbf{The \fiscalteam{} Will Manage the Fiscal Interactions of the
+    Project with NumFOCUS}. \label{ProjectManagement} Authority to manage the
+  fiscal decisions made by the Project in regards to all funds held by NumFOCUS
+  is delegated to the \fiscalteam{} as defined in \ref{Representation}.
+  NumFOCUS will only intervene in the program activities to the extent the
+  Project is not in compliance with \ref{OpenSourceSoftware} or
+  \ref{CharitablePurpose} of this Agreement.
 
 \item \textbf{The Project Will Be Open Source
-  Software}. \label{OpenSourceSoftware} NumFOCUS and the \leadershipbody{}
+  Software}. \label{OpenSourceSoftware} NumFOCUS and the \fiscalteam{}
   agree that any and all software and/or documentation distributed by the
   Project will be distributed solely as Open Source Software.  NumFOCUS retains
   the sole right to determine whether Project's software and/or documentation
   constitutes Open Source Software (as defined herein).
   
 \item \textbf{Project Not An Agent Of NumFOCUS}. The \signatories{} hereby
-  acknowledge that the Project and the \leadershipbody{} do not and shall not
+  acknowledge that the Project and the \fiscalteam{} do not and shall not
   act as an agent for NumFOCUS unless specifically authorized in writing by
   NumFOCUS to do so.
 
@@ -175,9 +179,9 @@ terminated as set forth in \ref{Termination}.
   actual processing fees incurred by NumFOCUS for the processing of financial
   transactions (such as credit card processing fees, bank wires, foreing
   currency exchange costs, online payment system fees, etc.)  These fees are
-  typically of the order of 3\%. The base percentage will be calculated based
-  on the total amount donated to the project during any given year.  The
-  schedule of such administrative charges is as follows:
+  typically, but not necessarily, on the order of 3\%. The base percentage will
+  be calculated based on the total amount donated to the project during any
+  given year.  The schedule of such administrative charges is as follows:
 
 \begin{enumerate}
 
@@ -207,8 +211,8 @@ given NumFOCUS' tax exempt status.
   NumFOCUS shall place all gifts, grants, contributions and other revenues
   received by NumFOCUS and identified with the Project into a Project Fund to
   be used for the sole benefit of the Project's mission as that mission may be
-  defined by the \leadershipbody{} from time to time with the approval of
-  NumFOCUS. The \leadershipbody{} will provide to NumFOCUS requests for
+  defined by the \fiscalteam{} from time to time with the approval of
+  NumFOCUS. The \fiscalteam{} will provide to NumFOCUS requests for
   disbursement of funds in accordance with the project mission. NumFOCUS
   retains the right to withhold disbursement to the project in the event that
   project activities violate the NumFOCUS charter.  Additionally, NumFOCUS
@@ -233,25 +237,25 @@ given NumFOCUS' tax exempt status.
 
 \item \textbf{Representation of the Project in
   NumFOCUS}. \label{Representation}The \signatories{}, each a signatory hereto,
-  hereby establish and comprise the initial members of the \leadershipbody{} to
+  hereby establish and comprise the initial members of the \fiscalteam{} to
   represent the Project in its official communication with NumFOCUS.  The
-  \signatories{} hereby acknowledge that the \leadershipbody{} will be subject
+  \signatories{} hereby acknowledge that the \fiscalteam{} will be subject
   to all terms of this Agreement.  On the Effective Date, the \signatories{}
   hereby transfer all rights, obligations and privileges of this Agreement over
-  to the \leadershipbody{}.
+  to the \fiscalteam{}.
 
-  The \leadershipbody{} shall contain either 3 or 5 members total, at the
-  discretion of the project, and shall designate a single ``Representative'' who
-  will act as the point of contact with NumFOCUS for regular communications.
-  NumFOCUS reserves the right to request additional information from other
-  members of the \leadershipbody{} beyond the ``Representative''.
+  The \fiscalteam{} shall contain \teamsize{}, and shall designate a single
+  ``Representative'' who will act as the point of contact with NumFOCUS for
+  regular communications.  NumFOCUS reserves the right to request additional
+  information from other members of the \fiscalteam{} beyond the
+  Representative.
 
-  The \leadershipbody{} has discretion on how to nominate and change its
+  The \fiscalteam{} has discretion on how to nominate and change its
   members, provided it notify NumFOCUS in writing of any changes made and a new
   copy of this agreement is signed by the new members at the time of change.
 
-\item \textbf{Conflict of Interest of \leadershipbody{} members}. No two (2) or
-  more members of the \leadershipbody{} may be employed by the same for-profit
+\item \textbf{Conflict of Interest of \fiscalteam{} members}. No two (2) or
+  more members of the \fiscalteam{} may be employed by the same for-profit
   entity or have a significant financial interest in the same. Significant
   financial interest is defined as receiving income of at least \$5,000
   annually, owning Stocks, Bonds, Stock Options or similar instruments with a
@@ -262,20 +266,20 @@ given NumFOCUS' tax exempt status.
   (such as working for the same University), such information must be declared
   in writing to NumFOCUS. If the NumFOCUS Board of Directors determines by a
   majority vote that a conflict of interest does exist, they may request that
-  one of the members immediately resign.
+  one of the members immediately resign and be replaced.
 
 \item \textbf{Outstanding Liabilities}. The \signatories{} represent that any
   liabilities that may be outstanding in connection with the Project have been
   disclosed to NumFOCUS.
 
-\item \textbf{Termination}. \label{Termination} The \leadershipbody{} or
+\item \textbf{Termination}. \label{Termination} The \fiscalteam{} or
   NumFOCUS may terminate this Agreement at any time subject to the following
   understandings:
 
 \begin{enumerate}[label=\alph*.,ref=\theenumi(\arabic*)]
 
 \item \textbf{Notice and Successor Search}. Either NumFOCUS or the
-  \leadershipbody{} may terminate this Agreement on sixty (60) days' written
+  \fiscalteam{} may terminate this Agreement on sixty (60) days' written
   notice to the other Party, so long as a Successor can be found that meets the
   following requirements (the ``Successor has Qualified''):
 
@@ -300,7 +304,7 @@ given NumFOCUS' tax exempt status.
 \end{enumerate}
 
 \item \textbf{Additional Search Periods}. If the Parties cannot agree on a
-  Successor to sponsor the Project, the \leadershipbody{} shall have an
+  Successor to sponsor the Project, the \fiscalteam{} shall have an
   additional 60 days to find a Successor willing and able to sponsor the
   Project. Any subsequent search periods of any length shall only be granted at
   NumFOCUS' written permission.
@@ -318,7 +322,7 @@ given NumFOCUS' tax exempt status.
 
 \item \textbf{\signatories{}' Right to Terminate.}  The \signatories{} hereby
   acknowledge that they will relinquish any rights to terminate separate from
-  the \leadershipbody{} as of the Effective Date.
+  the \fiscalteam{} as of the Effective Date.
 
 \end{enumerate}
 
@@ -332,7 +336,7 @@ given NumFOCUS' tax exempt status.
 
 \item \textbf{Amendments. }This Agreement may not be amended or modified,
   except in writing and signed by both NumFOCUS and the entirety of
-  \leadershipbody{}.
+  \fiscalteam{}.
 
 \item \textbf{Counterparts / Facsimile}. This Agreement may be executed in two
   or more counterparts, each of which shall constitute an original, but all of
@@ -358,9 +362,7 @@ By: \hspace{0.95em}\rule{0.50\textwidth}{0.2mm} \hfill{}Date: \rule{0.25\textwid
 
 \hspace{2.5em} \textsc{The NumFOCUS Foundation.}
 
-\hspace{2.5em} Travis E. Oliphant
-
-\hspace{2.5em} Title: Chairman \\[6ex]
+\hspace{2.5em} Travis E. Oliphant, Chairman.  \\[6ex]
 
 \vspace{2ex}
 
