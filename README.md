@@ -1,6 +1,7 @@
 # Fiscal sponsorship agreement for NumFOCUS and open source projects
 
-Materials for the Fiscal Sponsorship of open source projects under the NumFOCUS umbrella.
+Materials for the Fiscal Sponsorship of open source projects under the NumFOCUS
+umbrella.
 
 
 ## Creating a new agreement
