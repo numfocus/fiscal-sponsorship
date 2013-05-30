@@ -22,7 +22,7 @@ Step-by-step instructions:
 PROJECT=...
 mkdir $PROJECT
 cd template/
-cp Makefile definitions.tex leadership-body.tex ../$PROJECT
+cp Makefile definitions.tex signatures.tex ../$PROJECT
 cp fsa-numfocus-template.tex ../$PROJECT/fsa-numfocus-$PROJECT.tex
 ```
 
@@ -37,11 +37,10 @@ git commit -m"Created new FSA for project: $PROJECT"
 git push
 ```
 
-* The project members must then edit the four TeX files: `definitions.tex`,
-  `leadership-body.tex`, `signatures.tex` and `address.tex` with their own
-  information.  Note that for privacy reasons, `address.tex` should *not* be
-  committed to git, as it is likely to be the personal address of a project
-  contributor.
+* The project members must then edit the three TeX files: `definitions.tex`,
+  `signatures.tex` and `address.tex` with their own information.  Note that for
+  privacy reasons, `address.tex` should *not* be committed to git, as it is
+  likely to be the personal address of a project contributor.
 
   If the project agrees to the terms of the agreement, nothing else should be
   modififed. In particular, the main container document should *not* be edited
