@@ -1,12 +1,11 @@
 # Fiscal sponsorship agreement for NumFOCUS and open source projects
 
-Materials for the Fiscal Sponsorship of open source projects under the NumFOCUS
-umbrella.  This document is meant to establish a formal relationship between
-NumFOCUS and an open source project, where NumFOCUS acts as a "Fiscal Sponsor"
-for the project. This means that NumFOCUS will act as a financial point of
-contact for the project and will collect all donations, which are therefore tax
-deductible under US law.  In return, the project commits to only spending these
-funds in compliance with NumFOCUS' mission in support of open source scientific
+This document is meant to establish a formal relationship between NumFOCUS and
+an open source project, where NumFOCUS acts as a "Fiscal Sponsor" for the
+project. This means that NumFOCUS will act as a financial point of contact for
+the project and will collect all donations, which are therefore tax deductible
+under US law.  In return, the project commits to only spending these funds in
+compliance with NumFOCUS' mission in support of open source scientific
 computing, education and reproducible research (the specific legal terms are
 indicated in the document body).
 
