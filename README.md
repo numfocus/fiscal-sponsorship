@@ -13,13 +13,13 @@ indicated in the document body).
 ## Fiscal oversight team
 
 An open source project that wishes to operate under the NumFOCUS umbrella will
-need to select a small "Fiscal oversight team" comprised of 3 or 5 individuals
+need to select a small "fiscal oversight team" comprised of 3 or 5 individuals
 related to the project.  These individuals will sign this agreement and will
-act as the point of contact between NumFOCUS and the broader community and
+act as the point of contact between NumFOCUS and the broader community and the
 active leadership structure of the project.
 
 It is important to clarify the scope of this "fiscal oversight team": it is NOT
-a "board of directors" or otherwise leadership/guidance group for the project..
+a "board of directors" or otherwise leadership/guidance group for the project.
 Each project should maintain its own decision-making process, following its
 existing community and practices.  The fiscal team is *strictly* the group of
 people who will have to approve requests to NumFOCUS for money, and who take
