@@ -3,7 +3,7 @@
 # For each project, the template file will have been renamed to something else;
 # adjust the line below to reflect the real name of the file. No other changes
 # should be necessary
-fsa=fsa-numfocus-template
+fsa=fsa-comprehensive-template
 
 # Targets
 
