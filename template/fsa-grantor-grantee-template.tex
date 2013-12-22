@@ -15,7 +15,7 @@
 \usepackage{fancyhdr}
 \usepackage[verbose, twoside, dvips,
               paperwidth=8.5in, paperheight=11in,
-              left=1in, right=1in, top=1.25in, bottom=.75in,
+              left=1in, right=1in, top=1.25in, bottom=1in,
            ]{geometry}
 
 \usepackage{color}
@@ -80,6 +80,15 @@ By: \hspace{0.95em}\rule{0.50\textwidth}{0.2mm} \hfill{}Date: \rule{0.25\textwid
 \vspace{2ex}
 }
 
+% Signature for Numfocus Chairman
+\newcommand{\chairmansig}[1]{
+By: \hspace{0.95em}\rule{0.50\textwidth}{0.2mm} \hfill{}Date: \rule{0.25\textwidth}{0.2mm}
+
+\hspace{2.5em} \textsc{Numfocus, Inc., Grantor}
+
+\hspace{2.5em} Travis E. Oliphant, Chairman.  \\[4ex]
+}
+
 %% Load the actual values of the macro definitions for each project
 \input{definitions}
 
@@ -97,7 +106,7 @@ By: \hspace{0.95em}\rule{0.50\textwidth}{0.2mm} \hfill{}Date: \rule{0.25\textwid
 On \agreementdate, Numfocus, Inc. (Grantor) decided that financial support of the project described in the cover letter accompanying this Agreement will further Grantor's tax-exempt purposes. Therefore, Grantor has created a restricted fund designated for such project, and has decided to grant all amounts that it may deposit to that fund, less any administrative charge as set forth below, to \project{} (Grantee), subject to the following terms and conditions: 
 
 
-\begin{enumerate}
+\begin{enumerate}[align=parleft]
 
 \item Grantee shall provide Grantor with a link to any governing documents (articles of incorporation or FOSS governance documents), on-line repositories, mailing lists, other communication channels (such as IRC or hipchat) and websites.   Grantee shall also provide the names of 2 or 3 contact people (these should not be members of the Numfocus Board of Directors ) who will provide any required reporting and will formally verify, at least annually, that all funds are used in accordance with the tax-exempt purposes of Numfocus. 
 
@@ -139,12 +148,7 @@ Sponsorship Agreement effective on the \agreementdate{} (the
 
 \vspace{3em}
 
-
-By: \hspace{0.95em}\rule{0.50\textwidth}{0.2mm} \hfill{}Date: \rule{0.25\textwidth}{0.2mm}
-
-\hspace{2.5em} \textsc{Numfocus, Inc., Grantor}
-
-\hspace{2.5em} Travis E. Oliphant, Chairman.  \\[6ex]
+\chairmansig
 
 \vspace{2ex}
 
