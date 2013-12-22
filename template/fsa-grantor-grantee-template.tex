@@ -1,0 +1,154 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Template for Grantor-Grantee Fiscal Sponsorship Agreement.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[english,letterpaper,12pt]{article}
+
+%% Packages
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\usepackage{mathpazo}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage[verbose, twoside, dvips,
+              paperwidth=8.5in, paperheight=11in,
+              left=1in, right=1in, top=1.25in, bottom=.75in,
+           ]{geometry}
+
+\usepackage{color}
+\definecolor{darkorange}{rgb}{.71,0.21,0.01}
+
+%% Formatting
+\pagestyle{fancy}
+
+\lhead{}
+\rhead{}
+\chead{}
+
+\cfoot{\thepage}
+\lfoot{}
+\rfoot{Initials: \rule{0.25\textwidth}{0.2mm}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%% Command definitions
+
+%% We declare a series of macros with placeholder names here, that will be
+%% re-defined by each project in its own definitions file.  In principle, this
+%% file should never be modified unless a project negotiates specific changes,
+%% so any changes to this file will stand out as modifications to the substance
+%% of the agreement and not simply filling in data.
+
+%% Do NOT modify these definitions here!! They are meant only to declare the
+%% commands for the first time, they will get their actual values in the
+%% definitions file loaded below.
+
+% Official name of the project, e.g. ``NumPy''
+\newcommand{\project}{\textbf{PROJECT NAME}}
+
+% All the names of the contributors of the project which will sign the document
+% Every name listed here will also have to be listed in the final signature
+% section
+\newcommand{\contributors}{\textbf{CONTRIBUTOR-NAMES}}
+
+% Name given to the signatories group, such as ``NumPy developers''
+\newcommand{\signatories}{\textbf{SIGNATORIES}}
+
+% Name given to the fiscal management team for the project, e.g. ``NumPy fiscal
+% team''
+\newcommand{\fiscalteam}{\textbf{FISCAL-TEAM-NAME}}
+
+% Size of the project's fiscal management team
+\newcommand{\teamsize}{\textbf{3 or 5 members [Project MUST decide]}}
+
+% Mailing address for the leadership body, can be the personal address
+% of one of the members
+\newcommand{\leadershipaddress}{\textbf{MAILING ADDRESS}}
+
+% Date at which the agreement becomes enforceable
+\newcommand{\agreementdate}{\textbf{DD day of MM, 20YY}}
+
+% Signatures for contributors
+\newcommand{\contributorsig}[1]{
+By: \hspace{0.95em}\rule{0.50\textwidth}{0.2mm} \hfill{}Date: \rule{0.25\textwidth}{0.2mm}
+
+\hspace{2.5em} #1, \textsc{Grantee}
+
+\vspace{2ex}
+}
+
+%% Load the actual values of the macro definitions for each project
+\input{definitions}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{center}
+\textsc{\Large Numfocus Fiscal Sponsorship Agreement}\linebreak
+\textbf{Grantor-Grantee or Pre-approved Grant Relationship}
+\par\end{center}
+
+\bigskip{}
+
+On \agreementdate, Numfocus, Inc. (Grantor) decided that financial support of the project described in the cover letter accompanying this Agreement will further Grantor's tax-exempt purposes. Therefore, Grantor has created a restricted fund designated for such project, and has decided to grant all amounts that it may deposit to that fund, less any administrative charge as set forth below, to \project{} (Grantee), subject to the following terms and conditions: 
+
+
+\begin{enumerate}
+
+\item Grantee shall provide Grantor with a link to any governing documents (articles of incorporation or FOSS governance documents), on-line repositories, mailing lists, other communication channels (such as IRC or hipchat) and websites.   Grantee shall also provide the names of 2 or 3 contact people (these should not be members of the Numfocus Board of Directors ) who will provide any required reporting and will formally verify, at least annually, that all funds are used in accordance with the tax-exempt purposes of Numfocus. 
+
+
+\item There are two possibilities for disbursement of the restricted fund for the project.   Either Grantor will reimburse receipts and pay invoices directly on behalf of the project (non-EIN Grantee), or the Grantee will receive bulk distributions of the restricted fund and handle individual payouts itself (EIN Grantee).   In order for the Grantee to receive bulk distributions from Grantor, the Grantee will submit a completed and filed IRS Form SS-4 (This form is used to apply for an EIN, or Employer Identification Number, also known as a Tax Identification Number used by the IRS to identify tax accounts. It does not mean a project has employees.) showing Grantee's separate existence as an organization.   Grantee will assume any tax liability due as a result of receiving bulk distributions in that case. 
+
+\item An EIN Grantee shall provide bank-account information where restricted fund distributions shall be deposited for use by the Grantee.  A non-EIN Grantee shall forward receipts and invoices to Numfocus for direct payment from the restricted fund along with sufficient information to confirm the tax-free purposes of the payment.   Numfocus reserves the right to retain a fee of 2\% (for an EIN Grantee) and 4\% (for a non-EIN Grantee) from the restricted fund on any payments in addition to any third-party fees associated with payments (wire transfer fees, etc.).  This fee will no longer apply in the remainder of any year where \$20,000 of fees have already been collected.   In addition, any fees accrued by Numfocus in receiving donations for the restricted fund will be deducted from the donations. 
+
+\item Grantee shall use the grant solely for the project described in the accompanying letter and an EIN Grantee shall repay to Grantor any portion of the amount granted which is not used for that project.   Any changes in the purposes for which grant funds are spent must be approved in writing by Grantor before implementation.  Grantor retains the right, if Grantee breaches this Agreement, or if Grantee's conduct of the project jeopardizes Grantor's legal or tax status, to withhold, withdraw, or demand immediate return of grant funds, and to spend such funds so as to accomplish the purposes of the project as nearly as possible within Grantor's sole judgment.  Any tangible or intangible property, including copyrights, obtained or created by Grantee as part of this project shall remain the property of Grantee.
+
+\item Grantee may solicit gifts, contributions and grants to Grantor, earmarked for Grantor's restricted fund for this project. Grantee's choice of funding sources to be approached and the text of Grantee's fundraising materials are subject to Grantor's prior written approval. All grant agreements, pledges, or other commitments with funding sources to support this project via Grantor's restricted fund shall be executed by Grantor. The cost of any reports or other compliance measures required by such funding sources shall be borne by Grantee.
+
+\item Nothing in this Agreement shall constitute the naming of Grantee as an agent or legal representative of Grantor for any purpose whatsoever except as specifically and to the extent set forth herein. This Agreement shall not be deemed to create any relationship of agency, partnership, or joint venture between the parties hereto, and Grantee shall make no such representation to anyone. 
+
+\item Grantee shall submit a full and complete report to Grantor no later than 30 days prior to the end of Grantee's annual accounting period within which any portion of this grant is received or spent.  The report shall describe the charitable programs conducted by the Grantee with the aid of this grant and the expenditures made with grant funds, and shall report on the Grantee's compliance with the terms of this grant.
+
+\item This grant is not to be used in any attempt to influence legislation within the meaning of Internal Revenue Code (IRC) Section 501(c)(3). No agreement, oral or written, to that effect has been made between Grantor and Grantee.
+
+\item Grantee shall not use any portion of the funds granted herein to participate or intervene in any political campaign on behalf of or in opposition to any candidate for public office, to induce or encourage violations of law or public policy, to cause any private inurement or improper private benefit to occur, nor to take any other action inconsistent with IRC Section 501(c)(3). 
+
+\item Grantee shall notify Grantor immediately of any change in (a) Grantee's legal or tax status, and (b) Grantee's key people responsible for achieving the grant purposes and coordinating with Grantor.  
+
+\item Grantee hereby irrevocably and unconditionally agrees, to the fullest extent permitted by law, to defend, indemnify and hold harmless Grantor, its officers, directors, trustees, employees and agents, from and against any and all claims, liabilities, losses and expenses (including reasonable attorneys' fees) directly, indirectly, wholly or partially arising from or in connection with any act or omission of Grantee, its employees or agents, in applying for or accepting the grant, in expending or applying the funds furnished pursuant to the grant or in carrying out the program or project to be funded or financed by the grant, except to the extent that such claims, liabilities, losses or expenses arise from or in connection with any act or omission of Grantor, its officers, directors, trustees, employees or agents. 
+
+\item If a dispute arises out of or relates to this contract or the breach thereof and if the dispute cannot be settled through negotiation, the parties agree first to try in good faith to settle the dispute by mediation administered by a mutually agreed-upon arbitrator.  If an arbitrator cannot be agreed upon within 30 days, then the parties agree to use the American Arbitration Association under its Commercial Mediation Procedures.
+
+\item This Agreement shall be governed by and construed in accordance with the laws of the State of Texas applicable to agreements made and to be performed entirely within such State.
+
+\item This Agreement shall supersede any prior oral or written understandings or communications between the parties and constitutes the entire agreement of the parties with respect to the subject matter hereof. This Agreement may not be amended or modified, except in a writing signed by all parties hereto. 
+
+
+\end{enumerate}
+
+\medskip{}
+
+\textsc{In witness whereof}, the Parties have executed this Fiscal
+Sponsorship Agreement effective on the \agreementdate{} (the
+``Effective Date'').
+
+\vspace{3em}
+
+
+By: \hspace{0.95em}\rule{0.50\textwidth}{0.2mm} \hfill{}Date: \rule{0.25\textwidth}{0.2mm}
+
+\hspace{2.5em} \textsc{Numfocus, Inc., Grantor}
+
+\hspace{2.5em} Travis E. Oliphant, Chairman.  \\[6ex]
+
+\vspace{2ex}
+
+%% Pull in the actual signatures from the project contributors
+\input{signatures}
+
+\end{document}
