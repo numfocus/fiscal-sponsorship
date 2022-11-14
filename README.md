@@ -1,4 +1,6 @@
-# Fiscal sponsorship agreement for NumFOCUS and open source projects
+# Fiscal sponsorship agreement for NumFOCUS and open source projects (outdated)
+
+## Note, this repo has been archived as the details here are outdated. Please contact NumFOCUS if you have further questions.
 
 Please read the background.md document for additional details on the purpose
 and ideas behind the contracts contained in this repository. This README file
